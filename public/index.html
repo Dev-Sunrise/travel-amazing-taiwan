@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Travel Amazing Taiwan</title>
+
+    <!-- Logo -->
+    <link
+      rel="shortcut icon"
+      href="./images/Logo-3.jpg"
+    />
+
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!-- Font -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+  </head>
+  <body>
+    <div class="layout-wrapper">
+      <!-- Header -->
+      <header class="py-[19px] mb-[19px] border-b-[1px] border-greyE6">
+        <div class="layout-container">
+          <div class="flex items-center justify-between">
+            <a
+              href="./index.html"
+              class="max-w-[110px] md:max-w-[148px]"
+            >
+              <img
+                src="./images/Logo-1.png"
+                alt=""
+                class="object-cover w-full h-full"
+              />
+            </a>
+
+            <div
+              class="menu-fixed flex items-center flex-col justify-center md:justify-start md:flex-row gap-y-[50px] md:gap-y-0 md:gap-x-[81px] fixed top-0 bottom-0 right-0 w-[80%] md:w-auto md:static p-5 md:p-0 bg-whiteFF md:bg-transparent transition-all translate-x-full md:translate-x-0 shadow-lg md:shadow-none z-50"
+            >
+              <i
+                class="absolute text-5xl md:hidden fa-solid fa-xmark top-5 right-5 menu-close"
+              ></i>
+              <ul
+                class="flex flex-col md:flex-row items-center gap-y-[30px] md:gap-y-0 md:gap-x-[64px]"
+              >
+                <li>
+                  <a
+                    href="#!"
+                    class="font-medium transition-colors hover:text-orangeEE"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#!"
+                    class="font-medium transition-colors hover:text-orangeEE"
+                    >Explore</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#!"
+                    class="font-medium transition-colors hover:text-orangeEE"
+                    >About</a
+                  >
+                </li>
+              </ul>
+
+              <button
+                class="px-[29px] py-2 bg-orangeEE text-whiteFF rounded-[48px] hover:opacity-90 transition-all"
+              >
+                Sign In
+              </button>
+            </div>
+
+            <i
+              class="text-2xl cursor-pointer md:hidden fa-solid fa-bars menu-bar"
+            ></i>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <section class="pb-[150px] relative">
+        <div class="layout-container">
+          <div
+            class="flex flex-col-reverse items-center text-center md:text-start laptop:flex-row gap-y-5 laptop:gap-y-0"
+          >
+            <div
+              class="w-full max-w-[100%] md:max-w-[80%] laptop:max-w-[479px] shrink-0"
+            >
+              <h2
+                class="font-bold text-[40px] md:text-[50px] leading-[50px] md:leading-[75px] text-orangeEE mb-[10px]"
+              >
+                Discover your next place to travel in Taiwan
+              </h2>
+              <p class="text-xl font-normal leading-[30px] mb-6">
+                Since 2020, we’ve guided more than 100.000 people to enjoy their
+                best <strong>Taiwan Experience</strong>
+              </p>
+              <button
+                class="px-6 py-2 bg-orangeEE rounded-[48px] text-whiteFF hover:opacity-90 btn-shadow transition-all"
+              >
+                Let’s Explore
+              </button>
+            </div>
+
+            <img
+              src="./images/Hero-1.png"
+              alt=""
+              class="w-full md:max-w-[758px]"
+            />
+          </div>
+        </div>
+        <img
+          src="./images/Vector-1.png"
+          alt=""
+          class="absolute left-0 right-0 object-cover w-full -bottom-1 -z-10"
+        />
+      </section>
+
+      <!-- Popular -->
+      <section class="bg-dark29">
+        <div class="layout-container">
+          <h3
+            class="md:text-4xl text-[28px] font-bold leading-[40px] md:leading-[54px] text-center pt-[27px] mb-[47px] text-whiteFF"
+          >
+            Popular destinations in Taiwan
+          </h3>
+          <div class="popular-list gap-x-[44px] pb-[80px]">
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-1.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">Taipei</h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  56 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-2.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Taichung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  48 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-3.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Keelung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  24 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-4.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Kaohsiung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  37 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-1.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">Taipei</h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  56 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-2.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Taichung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  48 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-3.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Keelung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  24 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slick-slider">
+              <img
+                src="./images/Popular-4.png"
+                alt=""
+                class="w-full h-[408px] object-cover rounded-[20px]"
+              />
+              <div
+                class="bg-whiteFF w-full max-w-[80%] mx-auto py-[14px] px-[23px] rounded-[20px] mt-[-60px] relative z-50"
+              >
+                <h4 class="text-2xl font-bold leading-9 text-dark29">
+                  Kaohsiung
+                </h4>
+                <p class="font-normal text-lg leading-[27px] mb-1">
+                  37 Destinations
+                </p>
+                <div class="text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center pb-[5px]">
+            <button
+              class="py-2 px-[31px] btn-shadow bg-orangeEE rounded-[48px] text-whiteFF hover:opacity-90 transition-all"
+            >
+              Show More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="relative pt-[130px] md:pt-[256px] mb-[90px]">
+        <div class="layout-container">
+          <h3
+            class="font-bold text-center text-4xl leading-[54px] text-dark29 mb-[50px]"
+          >
+            About Us
+          </h3>
+          <div
+            class="flex flex-col-reverse items-center gap-y-[50px] laptop:flex-row"
+          >
+            <p class="text-2xl leading-9">
+              <span class="font-bold text-orangeEE">Amazing Taiwan</span> is
+              travel guidance platform, helps hundreds of thousands of people
+              each month, become <strong>better travelers</strong>.
+              <br />
+              <br />
+              Travelers across the globe use the Amazing Taiwan site to
+              <strong>discover</strong> where to visit, based on guidance from
+              those who have been there before.
+              <br />
+              <br />
+              As a travel guidance company, Amazing Taiwan makes planning easy
+              no matter the trip type.
+            </p>
+            <img
+              src="./images/About-1.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <img
+          src="./images/Vector-2.png"
+          alt=""
+          class="absolute left-0 right-0 object-cover w-full -z-10 -top-1"
+        />
+      </section>
+
+      <!-- Review -->
+      <section class="mb-[154px]">
+        <div class="layout-container">
+          <h3
+            class="mb-16 text-center font-bold text-4xl leading-[39px] md:leading-[54px]"
+          >
+            Let’s see what other travellers say
+          </h3>
+          <div
+            class="grid grid-rows-1 ms:grid-cols-2 laptop:grid-cols-3 gap-[22px]"
+          >
+            <div
+              class="item-shadow rounded-[20px] px-6 gap-x-[26px] items-start py-[27px] flex"
+            >
+              <img
+                src="./images/Review-1.png"
+                alt=""
+                class="w-[66px] object-cover"
+              />
+              <div class="flex flex-col h-full">
+                <h4
+                  class="mb-1 text-2xl font-bold leading-8 md:leading-9 text-dark29"
+                >
+                  Taipei 101
+                </h4>
+                <div class="mb-2 text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <p
+                  class="font-normal text-lg leading-[27px] mb-[14px] text-dark29"
+                >
+                  What an amazing place, I can see 360° view of Taipei from
+                  here.
+                </p>
+                <p class="font-bold mt-auto text-lg leading-[27px]">Michael</p>
+              </div>
+            </div>
+            <div
+              class="item-shadow rounded-[20px] mt-auto px-6 gap-x-[26px] items-start py-[27px] flex"
+            >
+              <img
+                src="./images/Review-2.png"
+                alt=""
+                class="w-[66px] object-cover"
+              />
+              <div class="flex flex-col h-full">
+                <h4
+                  class="mb-1 text-2xl font-bold leading-8 md:leading-9 text-dark29"
+                >
+                  Jiufen Old Street
+                </h4>
+                <div class="mb-2 text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p
+                  class="font-normal text-lg leading-[27px] mb-[14px] text-dark29"
+                >
+                  You must visit this place, There are so many delicious food
+                  and beautiful landscape.
+                </p>
+                <p class="font-bold text-lg mt-auto leading-[27px]">William</p>
+              </div>
+            </div>
+            <div
+              class="item-shadow rounded-[20px] px-6 gap-x-[26px] items-start py-[27px] flex"
+            >
+              <img
+                src="./images/Review-3.png"
+                alt=""
+                class="w-[66px] object-cover"
+              />
+              <div class="flex flex-col h-full">
+                <h4
+                  class="mb-1 text-2xl font-bold leading-8 md:leading-9 text-dark29"
+                >
+                  Shilin Night Market
+                </h4>
+                <div class="mb-2 text-yellowFC">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p
+                  class="font-normal text-lg leading-[27px] mb-[14px] text-dark29"
+                >
+                  This is a fun night market and easy to get to. It's pretty big
+                </p>
+                <p class="font-bold text-lg mt-auto leading-[27px]">Mary</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter pb-[140px] md:pb-[221px] relative">
+        <div class="layout-container">
+          <div
+            class="bg-dark29 rounded-[20px] text-whiteFF py-[50px] md:py-[81px] px-[30px] md:px-[106px] h-[700px] md:h-[396px] overflow-hidden relative"
+          >
+            <div class="w-full max-w-[518px] relative z-10">
+              <h2
+                class="mb-[9px] font-bold text-[25px] md:text-4xl leading-[30px] md:leading-[54px]"
+              >
+                Subscribe our newsletter
+              </h2>
+              <p class="font-normal mb-[53px] text-lg leading-[27px]">
+                Receive latest news, update, and many other things every week.
+              </p>
+              <form
+                class="flex flex-col md:flex-row p-5 gap-y-[10px] md:gap-y-0 items-center bg-whiteFF rounded-[26px] overflow-hidden md:p-[3px]"
+              >
+                <input
+                  type="text"
+                  placeholder="Your email here"
+                  class="flex-1 font-light text-lg leading-[27px] text-dark29 w-full md:px-7"
+                />
+                <button
+                  class="py-[9px] px-5 bg-dark29 text-whiteFF rounded-[23px] font-semibold text-lg leading-[27px]"
+                >
+                  Join Now
+                </button>
+              </form>
+            </div>
+            <img
+              src="./images/Newsletter-1.png"
+              alt=""
+              class="absolute w-[590px] lg:w-auto md:top-[-23%] right-0 md:right-[-10%]"
+            />
+          </div>
+        </div>
+        <img
+          src="./images/Vector-3.png"
+          alt=""
+          class="absolute -bottom-[1px] md:-bottom-[20px] lg:-bottom-[100px] left-0 right-0 object-cover w-full -z-10"
+        />
+      </section>
+
+      <!-- Footer -->
+      <footer class="pt-[10px] bg-dark29">
+        <div class="layout-container">
+          <div
+            class="flex flex-col tablet:flex-row tablet: flex-wrap items-start gap-y-[50px] laptop:gap-y-0"
+          >
+            <div class="tablet:mr-[150px]">
+              <a href="./index.html">
+                <img
+                  src="./images/Logo-2.png"
+                  alt=""
+                  class="w-[140px] md:w-[192px] mb-[60px] tablet:mb-[110px]"
+                />
+              </a>
+              <div
+                class="text-[28px] text-whiteFF flex items-center gap-x-[29px]"
+              >
+                <a href="#!">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#!">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#!">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="tablet:mr-[87px] text-whiteFF">
+              <h3
+                class="font-bold text-lg leading-[27px] mg-[10px] tablet:mb-[39px]"
+              >
+                Menu
+              </h3>
+              <div
+                class="flex flex-col items-start font-normal text-lg leading-[39px]"
+              >
+                <a href="#!">About</a>
+                <a href="#!">Destination</a>
+                <a href="#!">Reviews</a>
+                <a href="#!">Community</a>
+              </div>
+            </div>
+
+            <div class="tablet:mr-[76px] text-whiteFF">
+              <h3
+                class="font-bold text-lg leading-[27px] mg-[10px] tablet:mb-[39px]"
+              >
+                Company
+              </h3>
+              <div
+                class="flex flex-col items-start font-normal text-lg leading-[39px]"
+              >
+                <a href="#!">Terms & Conditions</a>
+                <a href="#!">Privacy Policy</a>
+                <a href="#!">Careers</a>
+              </div>
+            </div>
+
+            <div class="tablet:mr-[76px] text-whiteFF">
+              <h3
+                class="font-bold text-lg leading-[27px] mg-[10px] tablet:mb-[39px]"
+              >
+                Support
+              </h3>
+              <div
+                class="flex flex-col items-start font-normal text-lg leading-[39px]"
+              >
+                <a href="#!">Contact Us</a>
+                <a href="#!">FAQ/Help</a>
+                <a href="#!">Resources</a>
+              </div>
+            </div>
+
+            <div class="text-whiteFF">
+              <h3
+                class="font-bold text-lg leading-[27px] mg-[10px] tablet:mb-[39px]"
+              >
+                Contact Us
+              </h3>
+              <div
+                class="flex flex-col items-start font-normal text-lg leading-[39px]"
+              >
+                <a href="#!">0912345678</a>
+                <a href="#!">support@amazingtaiwan.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="py-5 mt-[59px] border-t-[1px] border-y-greyE6 text-whiteFF"
+          >
+            <p class="text-xs text-center">
+              Design with ♥ by
+              <a
+                href="https://www.linkedin.com/in/ph%E1%BA%A1m-th%C3%A0nh-%C4%91%E1%BA%A1t-b194b5238/"
+                class="font-bold underline"
+                >Thanh Dat</a
+              >. Thank You
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
